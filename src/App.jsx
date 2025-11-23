@@ -5,17 +5,32 @@ import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
-import { CssBaseline } from "@mui/material";
+import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+
+const theme = createTheme({
+  palette: {
+    type: "light",
+    primary: {
+      main: "#41e230",
+      contrastText: "rgba(255,255,255,0.87)",
+    },
+    secondary: {
+      main: "#87ebee",
+    },
+  },
+});
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <ThemeProvider theme={theme}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </ThemeProvider>
     </>
   );
 }
