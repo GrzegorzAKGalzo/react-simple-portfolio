@@ -2,7 +2,9 @@ img{
     max-height: 700px;
     margin: 0 auto;
     display: block;
+    transition: all 0.3s;
 }
+
 .item-icons-box{
     display: flex;
     gap: 10px;
@@ -43,3 +45,4 @@ h4{
   background-color: #5930e220;
     color: #5930e2;
 }
+

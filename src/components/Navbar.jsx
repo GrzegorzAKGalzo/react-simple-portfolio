@@ -39,6 +39,10 @@ function Navbar() {
           to="#showcase"
           onClick={() => {
             setIsMenuVisible(false);
+            const el = document.querySelector("#showcase");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
           }}
         >
           Portfolio

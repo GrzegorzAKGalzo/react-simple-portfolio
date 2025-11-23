@@ -92,6 +92,13 @@ h2{
     font-size: 1.1rem;
 }
 .extra-title.bg-1{
-    background-color: #54bbe720;
-    color: #54bce7;
+    background-color: #87ebee20;
+    color: #87ebee;
+}
+.extra-title.bg-2{
+    background-color: #5930e220;
+    color: #5930e2;
+}
+.text-center{
+    text-align: center;
 }

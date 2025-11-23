@@ -70,7 +70,7 @@ function AboutMe() {
           </div>
         </div>
         <div className="col">
-          <img src="about-me.jpg" alt="" />
+          <img src="about-me.jpg" alt="Obrazek o mnie" />
         </div>
       </div>
     </section>
