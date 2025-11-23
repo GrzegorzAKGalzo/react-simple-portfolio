@@ -6,7 +6,7 @@ import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 
 function HeroSection() {
   return (
-    <div className="container-fluid hero-section">
+    <section className="container-fluid hero-section">
       <div className="row">
         <div className="extras-info">
           <AutoAwesomeIcon /> Web Designer & Developer
@@ -47,7 +47,7 @@ function HeroSection() {
           <span>100%</span> <br /> Satysfakcji
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default HeroSection;

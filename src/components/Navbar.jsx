@@ -26,6 +26,10 @@ function Navbar() {
           to="#about"
           onClick={() => {
             setIsMenuVisible(false);
+            const el = document.querySelector("#about");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
           }}
         >
           O mnie
