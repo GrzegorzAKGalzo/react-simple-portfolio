@@ -8,7 +8,7 @@ function Contact() {
     <section className="container bg-dark" id="contact">
       <div className="row">
         <ExtraTitle color="1">Skontakuj się</ExtraTitle>
-        <h2>
+        <h2 className="text-center">
           Gotowy na nową stronę <i>WWW</i>?
         </h2>
         <p className="text-muted">
