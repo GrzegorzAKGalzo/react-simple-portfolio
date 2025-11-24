@@ -24,7 +24,7 @@ a.navbar-link:hover {
 }
 .navbar-brand-logo{
     color: white;
-    background: linear-gradient(125deg,rgba(65, 226, 48, 1) 0%, rgba(135, 235, 238, 1) 100%);
+    background: linear-gradient(125deg, #9e30e2 0%, rgba(135, 235, 238, 1) 100%);
     padding: 10px;
     border-radius: var(--radius);
     text-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;

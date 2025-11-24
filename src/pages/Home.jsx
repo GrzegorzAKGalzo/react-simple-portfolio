@@ -1,6 +1,7 @@
 import HeroSection from "../components/HeroSection";
 import AboutMe from "../components/AboutMe";
 import Showcase from "../components/Showcase";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <HeroSection />
       <AboutMe />
       <Showcase />
+      <Contact />
     </main>
   );
 }

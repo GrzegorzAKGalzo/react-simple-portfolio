@@ -1,0 +1,29 @@
+.contact-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+}
+.contact-option{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: var(--radius);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+.contact-icon{
+    background-color: #42e23020;
+    color: #41e230;
+    padding: 10px;
+    box-sizing:content-box;
+    border-radius: 50%;
+}
+.contact-option:nth-child(2) .contact-icon{
+    background-color: #5930e220;
+    color: #5930e2;
+}
