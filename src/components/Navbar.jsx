@@ -7,8 +7,9 @@ import CloseIcon from "@mui/icons-material/Close";
 
 function Navbar() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isMenuFixed, setIsMenuFixed] = useState(false);
   return (
-    <nav>
+    <nav className={setIsMenuFixed && "fixed"}>
       <div className="navbar-brand text-bold">
         <span className="navbar-brand-logo">GL</span> Grzegorz
       </div>
