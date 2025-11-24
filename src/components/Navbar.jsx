@@ -53,11 +53,25 @@ function Navbar() {
           to="#contact"
           onClick={() => {
             setIsMenuVisible(false);
+            const el = document.querySelector("#contact");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
           }}
         >
           Kontakt
         </NavLink>
-        <NavLink className="navbar-link navbar-link-cta" to="#contact">
+        <NavLink
+          className="navbar-link navbar-link-cta"
+          to="#contactForm"
+          onClick={() => {
+            setIsMenuVisible(false);
+            const el = document.querySelector("#contactForm");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
           Wycena
         </NavLink>
       </div>
