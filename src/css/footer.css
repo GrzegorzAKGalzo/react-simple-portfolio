@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(12, 3, 18);
+}
+footer *{
+    color: white !important;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

@@ -2,6 +2,7 @@ import HeroSection from "../components/HeroSection";
 import AboutMe from "../components/AboutMe";
 import Showcase from "../components/Showcase";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <AboutMe />
       <Showcase />
       <Contact />
+      <Footer />
     </main>
   );
 }
