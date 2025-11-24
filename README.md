@@ -1,16 +1,59 @@
-# React + Vite
+# 🚀 Portfolio – React + Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and fully responsive developer portfolio built with **React**, **Vite**, and **Material UI**.  
+This project showcases my skills, selected case studies, tech stack, and includes an integrated contact form for quick communication.
 
-Currently, two official plugins are available:
+Version **1.0** focuses on clean UI, smooth navigation, and a solid structure ready to be expanded.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 **Modern UI** powered by Material UI
+- ⚡ **Lightning-fast Vite** development & build
+- 📁 **Case Studies / Projects section**
+- 👤 **SEO-friendly “About Me” section**
+- 📱 **Fully responsive layout**
+- 🧭 **Smooth scrolling to sections**
+- 💡 Clean, minimal and professional design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React 18**
+- **Vite**
+- **Material UI (MUI 5)**
+- **React Router**
+- **Material Icons / React Icons**
+
+---
+
+## 📦 Installation
+
+```bash
+git clone URL
+cd react-simple-portfolio
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Project Status
+
+Current Version: 1.0
+
+Completed:
+
+- Core layout and sections
+
+- Smooth navigation
+
+- Full responsiveness
+
+- Planned for v1.1:
+
+- Working contact form
+
+- Expanded Projects section
